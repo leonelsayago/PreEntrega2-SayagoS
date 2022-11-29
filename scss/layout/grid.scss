@@ -1,10 +1,18 @@
-.index {
+//DESKTOP INDEX
+.indexG {
 	display: grid;
 	grid-template-columns: repeat(2, 50%);
      grid-template-rows: repeat(3, auto);
 	grid-template-areas: 
 	"header header"
-	" main main"
+	"main main"
 	"footer footer"
 	;
-}           
+	header {
+		grid-area: header;
+		text-align: right;	
+	}
+	main{
+		grid-area: main;
+	}	
+	footer {grid-area: footer}

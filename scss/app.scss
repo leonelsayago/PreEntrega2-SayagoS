@@ -1,11 +1,12 @@
-//LAYOUT
-@import "./layout/header.scss";
-@import "./layout/footer.scss";
-@import "./layout/grid.scss";
-
 //BASE
 @import "./base/colors.scss";
 @import "./base/typography.scss";
+
+//LAYOUT
+@import "./layout/grid.scss";
+@import "./layout/header.scss";
+@import "./layout/footer.scss";
+
 
 //COMPONENTS
 
